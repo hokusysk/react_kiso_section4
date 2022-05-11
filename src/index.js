@@ -197,6 +197,6 @@ console.log(fee4);
 // →  ||は、左がfalseなら右を返す
 
 const num5 = 100;
-const fee5 = num5 && 0 && "!!!";
+const fee5 = num5 && 10 && "金額が入力されています";
 console.log(fee5);
 // →  &&は、左がtrueなら右を返す
